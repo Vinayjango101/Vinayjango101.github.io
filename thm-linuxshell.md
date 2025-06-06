@@ -1,10 +1,7 @@
 
-```
-title: "Mastering Linux Shells: A TryHackMe Walkthrough"
-date: 2025-06-07
-categories: [TryHackMe, Linux, Shell Scripting]
-tags: [bash, scripting, cybersecurity, tryhackme]
-```
+
+<h1>Mastering Linux Shells : A TryHackMe Walkthrough</h1>
+
 
 ![Linux Shells Banner](https://private-user-images.githubusercontent.com/193825699/452346786-74753747-4941-4f21-bc0c-2c201c26589d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDkyNDIyMTMsIm5iZiI6MTc0OTI0MTkxMywicGF0aCI6Ii8xOTM4MjU2OTkvNDUyMzQ2Nzg2LTc0NzUzNzQ3LTQ5NDEtNGYyMS1iYzBjLTJjMjAxYzI2NTg5ZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYwNlQyMDMxNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZjU3MGUzN2RkODA1YmUxNDcwNTQ5YzEyZGNkZGFkMDk0Y2ZlMjVlYTg2NTBmYTliN2FhNjlkNjE3MDk4NjFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.WXxTnxV0JOBSpGKWKupuumcLLrLrhcbtKU8c7GJi-9s)
 
@@ -28,7 +25,7 @@ The module covers:
 
 This script simulates a bank locker authentication system, prompting the user for their username, company name, and PIN. If the provided credentials match predefined values, access is granted.
 
-
+```
 #!/bin/bash
 
 # Defining the variables
@@ -59,7 +56,7 @@ else
 fi
 
 Note: Ensure you're executing it with Bash and not sh.
-
+```
 2. The Flag Hunt Script
 This script searches for a specific flag within system logs, demonstrating the use of grep and find commands.
 
